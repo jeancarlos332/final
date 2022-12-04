@@ -8,6 +8,7 @@ const errorMiddleware = require("./middleware/error");
 
 const app = express();
 
+
 app.use(cors());
 app.set("port", process.env.PORT || 5000);
 app.use(dbConn(mysql, db, "single"));
