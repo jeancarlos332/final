@@ -6,7 +6,6 @@ const routes = require("./routes/routes");
 const cors = require("cors");
 const errorMiddleware = require("./middleware/error");
 
-
 const app = express();
 
 
