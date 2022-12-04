@@ -16,7 +16,6 @@ app.use("/api", routes);
 app.use(errorMiddleware);
 
 
-
 // Server running
 app.listen(app.get("port"), () => {
   console.log("Server running on port", app.get("port"));
